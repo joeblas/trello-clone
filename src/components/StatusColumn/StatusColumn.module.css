@@ -1,0 +1,30 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    height: 600px;
+    min-width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #00c4b3;
+}
+
+.addTask {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    color: #00ab9c;
+    cursor: pointer;
+}

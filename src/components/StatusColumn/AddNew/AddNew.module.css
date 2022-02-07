@@ -1,0 +1,49 @@
+.root{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonContainer {
+    display: flex;
+    margin-top: 10px;
+}
+
+textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #00ab9c;
+    width: 90%;
+    margin: 10px 0;
+    font: inherit;
+}
+
+textarea:active, textarea:focus {
+    outline: none;
+}
+
+.addButton {
+    background-color: #00ab9c;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancelButton {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: #707070;
+    cursor: pointer;
+}
+
+.errorText {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}

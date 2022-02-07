@@ -1,0 +1,59 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.25);
+    min-height: 40px;
+}
+
+.title {
+    overflow-wrap: break-word;
+    font-size: 1em;
+    font-weight: bold;
+    color: #00c4b3;
+}
+
+.description {
+    font-size: 0.8em;
+    color: #00c4b3;
+}
+
+.moreOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: auto;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    color: #00ab9c;
+    cursor: pointer;
+}
+
+
+.actions {
+    margin-left: auto;
+}
+
+.editButton {
+    background-color: transparent;
+    border: none;
+    font-size: 0.7em;
+    color: #00ab9c;
+    cursor: pointer;
+
+}
+
+.actions select {
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 0.7em;
+    color: #00ab9c;
+    cursor: pointer;
+}
